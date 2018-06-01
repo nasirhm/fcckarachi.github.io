@@ -2,7 +2,6 @@ let $ = require('../../node_modules/jquery/dist/jquery');
 let hammer = require('../../node_modules/hammerjs');
 let materialize = require('../../node_modules/materialize-css/dist/js/materialize');
 
-
 $(document).ready(function () {
   $(".button-collapse").sideNav();
   $('.parallax').parallax();
@@ -45,3 +44,4 @@ $(document).ready(function () {
   setCopyRightYear();
 });
 
+npm test
